@@ -29,3 +29,9 @@ Este projeto tem como objetivo fornecer um robusto sistema de enriquecimento de 
 * Compliance e Regulação: Manter as informações cadastrais sempre atualizadas ajuda a cumprir com regulamentações e obrigações legais, evitando possíveis penalidades.
   
  **Este projeto representa um avanço significativo na gestão e utilização de dados corporativos, contribuindo para um ambiente empresarial mais competitivo e eficiente.**
+
+### Release ###
+
+Dentro da pasta data existe um arquivo chamado cnpj.csv que contem diversos cnpjs que são compartilhados de forma pública na web. 
+Com essa base inicial, utilizaremos os cnpjs como chave para fazer uma conexão com a BrasilAPI (https://brasilapi.com.br/api/cnpj/v1/{cnpj}) e trazer diversos dados como Estado, Município, cidade, bairro, rua, cep), dados de situação cadastral, nome fantasia,
+início das atividades, CNAE fiscal.
