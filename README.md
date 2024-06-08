@@ -33,5 +33,6 @@ Este projeto tem como objetivo fornecer um robusto sistema de enriquecimento de 
 ### Release ###
 
 Dentro da pasta data existe um arquivo chamado cnpj.csv que contem diversos cnpjs que são compartilhados de forma pública na web. 
-Com essa base inicial, utilizaremos os cnpjs como chave para fazer uma conexão com a BrasilAPI (https://brasilapi.com.br/api/cnpj/v1/{cnpj}) e trazer diversos dados como Estado, Município, cidade, bairro, rua, cep), dados de situação cadastral, nome fantasia,
+Com essa base inicial, utilizaremos os cnpjs como chave para fazer uma conexão com a BrasilAPI (https://brasilapi.com.br/api/cnpj/v1/{cnpj}) e trazer diversos dados como Estado, Município, cidade, bairro, rua, cep, dados de situação cadastral, nome fantasia,
 início das atividades, CNAE fiscal.
+O resultado é salvo na pasta output.
