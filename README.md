@@ -15,16 +15,17 @@ Este projeto tem como objetivo fornecer um robusto sistema de enriquecimento de 
   
 ### Dados de Situação Cadastral: ###
 
-Nome Fantasia: Nome pelo qual a empresa é conhecida no mercado.
-Situação Cadastral: Status atual do cadastro da empresa, indicando se está ativa, inativa, entre outras situações possíveis.
-Início das Atividades: Data de início das operações da empresa, proporcionando uma visão sobre sua experiência e tempo de mercado.
-Informações Econômicas e Fiscais:
+* Nome Fantasia: Nome pelo qual a empresa é conhecida no mercado.
+* Situação Cadastral: Status atual do cadastro da empresa, indicando se está ativa, inativa, entre outras situações possíveis.
+* Início das Atividades: Data de início das operações da empresa, proporcionando uma visão sobre sua experiência e tempo de mercado.
+* Informações Econômicas e Fiscais:
+* CNAE Fiscal: Classificação Nacional de Atividades Econômicas, que detalha a atividade econômica principal da empresa, auxiliando na segmentação e análise de mercado.
+  
+### Benefícios do Projeto: ###
 
-CNAE Fiscal: Classificação Nacional de Atividades Econômicas, que detalha a atividade econômica principal da empresa, auxiliando na segmentação e análise de mercado.
-Benefícios do Projeto:
-
-Tomada de Decisão Aprimorada: Com dados mais completos e precisos, as empresas poderão tomar decisões mais informadas e estratégicas.
-Aumento da Eficiência Operacional: Automatização do processo de enriquecimento de dados, reduzindo a necessidade de intervenções manuais e minimizando erros.
-Melhoria da Experiência do Cliente: Dados atualizados e detalhados permitem um melhor entendimento do perfil e das necessidades dos clientes, possibilitando um atendimento mais personalizado.
-Compliance e Regulação: Manter as informações cadastrais sempre atualizadas ajuda a cumprir com regulamentações e obrigações legais, evitando possíveis penalidades.
-Este projeto representa um avanço significativo na gestão e utilização de dados corporativos, contribuindo para um ambiente empresarial mais competitivo e eficiente.
+* Tomada de Decisão Aprimorada: Com dados mais completos e precisos, as empresas poderão tomar decisões mais informadas e estratégicas.
+* Aumento da Eficiência Operacional: Automatização do processo de enriquecimento de dados, reduzindo a necessidade de intervenções manuais e minimizando erros.
+* Melhoria da Experiência do Cliente: Dados atualizados e detalhados permitem um melhor entendimento do perfil e das necessidades dos clientes, possibilitando um atendimento mais personalizado.
+* Compliance e Regulação: Manter as informações cadastrais sempre atualizadas ajuda a cumprir com regulamentações e obrigações legais, evitando possíveis penalidades.
+  
+ **Este projeto representa um avanço significativo na gestão e utilização de dados corporativos, contribuindo para um ambiente empresarial mais competitivo e eficiente.**
