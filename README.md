@@ -2,6 +2,8 @@
 
 Este projeto tem como objetivo fornecer um robusto sistema de enriquecimento de dados para empresas, utilizando o CNPJ como chave primária. Com esta solução, será possível melhorar significativamente a qualidade e a quantidade de informações disponíveis sobre as empresas na sua base de dados.
 
+> *Nota: Os dados fornecidos aqui neste projeto estão disponíveis de forma pública no site: https://brasil.io/home/ e https://brasilapi.com.br/*
+
 ## Funcionalidades Principais: ##
 
 ### Geolocalização Detalhada: ###
