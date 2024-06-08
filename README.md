@@ -2,17 +2,18 @@
 
 Este projeto tem como objetivo fornecer um robusto sistema de enriquecimento de dados para empresas, utilizando o CNPJ como chave primária. Com esta solução, será possível melhorar significativamente a qualidade e a quantidade de informações disponíveis sobre as empresas na sua base de dados.
 
-Funcionalidades Principais:
+## Funcionalidades Principais: ##
 
-Geolocalização Detalhada:
+### Geolocalização Detalhada: ###
 
-Estado: Identificação do estado onde a empresa está localizada.
-Município: Detalhamento do município da empresa.
-Cidade: Informação específica sobre a cidade de atuação.
-Bairro: Precisão sobre o bairro em que a empresa se encontra.
-Rua: Endereço completo, incluindo nome da rua.
-CEP: Código postal para correspondências e logística.
-Dados de Situação Cadastral:
+* Estado: Identificação do estado onde a empresa está localizada.
+* Município: Detalhamento do município da empresa.
+* Cidade: Informação específica sobre a cidade de atuação.
+* Bairro: Precisão sobre o bairro em que a empresa se encontra.
+* Rua: Endereço completo, incluindo nome da rua.
+* CEP: Código postal para correspondências e logística.
+  
+### Dados de Situação Cadastral: ###
 
 Nome Fantasia: Nome pelo qual a empresa é conhecida no mercado.
 Situação Cadastral: Status atual do cadastro da empresa, indicando se está ativa, inativa, entre outras situações possíveis.
