@@ -2,12 +2,12 @@ import pandas as pd
 import requests
 from tqdm import tqdm
 
-# Função para obter a data atual no formato YYYYMMDD
+
 def data_atual():
     from datetime import datetime
     return datetime.now().strftime('%Y%m%d')
 
-# Função para obter os dados da API com os campos específicos
+
 def get_api_data(cnpj):
     url = f"https://brasilapi.com.br/api/cnpj/v1/{cnpj}"
     response = requests.get(url)
@@ -51,25 +51,25 @@ def get_api_data(cnpj):
         print(f"Erro ao obter dados da API para o CNPJ {cnpj}. Status code: {response.status_code}")
         return None
 
-# Carregar o arquivo CSV
+
 df = pd.read_csv("data/cnpj.csv")
 
-# Obter os CNPJs únicos da coluna "cnpj"
+
 cnpjs = df["cnpj"].unique()
 
-# Criar uma lista para armazenar os dados da API
+
 api_data_list = []
 
-# Iterar sobre os CNPJs, obter os dados da API e adicionar à lista
+
 for cnpj in tqdm(cnpjs, desc="Obtendo dados da API"):
     api_data = get_api_data(cnpj)
     if api_data:
         api_data_list.append(api_data)
 
-# Criar o DataFrame da API a partir da lista de dados
+
 api_df = pd.DataFrame(api_data_list)
 
-# Salvar o DataFrame da API como um arquivo CSV
+
 api_df.to_csv("output/results.csv", index=False)
 
 print("Processo concluído. Os dados foram salvos em 'output/results.csv'")
