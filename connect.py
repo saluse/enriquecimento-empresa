@@ -54,21 +54,16 @@ def get_api_data(cnpj):
 
 df = pd.read_csv("data/cnpj.csv")
 
-
 cnpjs = df["cnpj"].unique()
 
-
 api_data_list = []
-
 
 for cnpj in tqdm(cnpjs, desc="Obtendo dados da API"):
     api_data = get_api_data(cnpj)
     if api_data:
         api_data_list.append(api_data)
 
-
 api_df = pd.DataFrame(api_data_list)
-
 
 api_df.to_csv("output/results.csv", index=False)
 
