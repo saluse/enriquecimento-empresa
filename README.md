@@ -6,7 +6,7 @@ Este projeto tem como objetivo fornecer um robusto sistema de enriquecimento de 
 
 ## Funcionalidades Principais: ##
 
-### Geolocalização Detalhada: ###
+### Localização Detalhada: ###
 
 * Estado: Identificação do estado onde a empresa está localizada.
 * Município: Detalhamento do município da empresa.
